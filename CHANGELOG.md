@@ -1,5 +1,15 @@
 # Changelog
 
+## [0.2.0](https://github.com/liblaf/mkdocs-preset/compare/v0.1.1..v0.2.0) - 2025-08-25
+
+### 💥 BREAKING CHANGES
+
+- **deps:** replace mkdocs-section-index with mkdocs-awesome-nav - ([5a92dfa](https://github.com/liblaf/mkdocs-preset/commit/5a92dfa954cd8ec36489555b1e47c7eb1c368960))
+
+### ❤️ New Contributors
+
+- [@liblaf](https://github.com/liblaf) made their first contribution
+
 ## [0.1.1](https://github.com/liblaf/mkdocs-preset/compare/v0.1.0..v0.1.1) - 2025-08-25
 
 ### 💥 BREAKING CHANGES
@@ -13,11 +23,6 @@ BREAKING CHANGE: This change removes mkdocs-section-index plugin which may affec
 ### 🐛 Bug Fixes
 
 - **dependencies:** add cache extra to mkdocs-include-markdown-plugin - ([a5d03db](https://github.com/liblaf/mkdocs-preset/commit/a5d03db6eadcfbd7d934753a6205ea675f0eccc8))
-
-### ❤️ New Contributors
-
-- [@liblaf](https://github.com/liblaf) made their first contribution
-- [@liblaf-bot[bot]](https://github.com/apps/liblaf-bot) made their first contribution
 
 ## [0.1.0] - 2025-08-23
 
