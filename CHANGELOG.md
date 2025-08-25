@@ -1,5 +1,24 @@
 # Changelog
 
+## [0.1.1](https://github.com/liblaf/mkdocs-preset/compare/v0.1.0..v0.1.1) - 2025-08-25
+
+### 💥 BREAKING CHANGES
+
+- feat!(deps): replace mkdocs-section-index with mkdocs-awesome-nav
+
+Replace mkdocs-section-index plugin with mkdocs-awesome-nav to enhance navigation features and improve documentation structure. The new plugin provides more advanced navigation capabilities and better integration with MkDocs Material theme.
+
+BREAKING CHANGE: This change removes mkdocs-section-index plugin which may affect existing navigation behavior. Users should update their MkDocs configuration to use mkdocs-awesome-nav instead. - ([465bd18](https://github.com/liblaf/mkdocs-preset/commit/465bd18426f4c3aca6779bdb9d7e6d442a818cf0))
+
+### 🐛 Bug Fixes
+
+- **dependencies:** add cache extra to mkdocs-include-markdown-plugin - ([a5d03db](https://github.com/liblaf/mkdocs-preset/commit/a5d03db6eadcfbd7d934753a6205ea675f0eccc8))
+
+### ❤️ New Contributors
+
+- [@liblaf](https://github.com/liblaf) made their first contribution
+- [@liblaf-bot[bot]](https://github.com/apps/liblaf-bot) made their first contribution
+
 ## [0.1.0] - 2025-08-23
 
 ### 💥 BREAKING CHANGES
@@ -16,5 +35,5 @@
 
 ### ❤️ New Contributors
 
-- [@liblaf-bot[bot]](https://github.com/apps/liblaf-bot) made their first contribution in [#4](https://github.com/liblaf/mkdocs-preset/pull/4)
+- [@liblaf-bot[bot]](https://github.com/apps/liblaf-bot) made their first contribution in [#1](https://github.com/liblaf/mkdocs-preset/pull/1)
 - [@liblaf](https://github.com/liblaf) made their first contribution
