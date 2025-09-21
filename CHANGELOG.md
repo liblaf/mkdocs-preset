@@ -1,5 +1,13 @@
 # Changelog
 
+## [0.2.1](https://github.com/liblaf/mkdocs-preset/compare/v0.2.0...v0.2.1) (2025-09-21)
+
+
+### 🐛 Bug Fixes
+
+* **deps:** update dependency mkdocs-api-autonav to &gt;=0.4,&lt;0.5 ([#8](https://github.com/liblaf/mkdocs-preset/issues/8)) ([55dee73](https://github.com/liblaf/mkdocs-preset/commit/55dee73f05730cbfb326715132d29071dd086e34))
+* **deps:** update dependency ruff to &gt;=0.13,&lt;0.14 ([#9](https://github.com/liblaf/mkdocs-preset/issues/9)) ([5be3f93](https://github.com/liblaf/mkdocs-preset/commit/5be3f930e77b600467e409d23f9f6f119291d863))
+
 ## [0.2.0](https://github.com/liblaf/mkdocs-preset/compare/v0.1.1..v0.2.0) - 2025-08-25
 
 ### 💥 BREAKING CHANGES
