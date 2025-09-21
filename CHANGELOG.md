@@ -1,22 +1,22 @@
 # Changelog
 
-## [0.2.1](https://github.com/liblaf/mkdocs-preset/compare/v0.2.0...v0.2.1) (2025-09-21)
+## [0.2.1](https://github.com/liblaf/mkdocs-preset/compare/v0.2.0..v0.2.1) - 2025-09-21
 
+### ⬆️ Dependencies
 
-### 🐛 Bug Fixes
+- **deps:** update dependency ruff to >=0.13,<0.14 (#9) - ([5be3f93](https://github.com/liblaf/mkdocs-preset/commit/5be3f930e77b600467e409d23f9f6f119291d863))
+- **deps:** update dependency mkdocs-api-autonav to >=0.4,<0.5 (#8) - ([55dee73](https://github.com/liblaf/mkdocs-preset/commit/55dee73f05730cbfb326715132d29071dd086e34))
 
-* **deps:** update dependency mkdocs-api-autonav to &gt;=0.4,&lt;0.5 ([#8](https://github.com/liblaf/mkdocs-preset/issues/8)) ([55dee73](https://github.com/liblaf/mkdocs-preset/commit/55dee73f05730cbfb326715132d29071dd086e34))
-* **deps:** update dependency ruff to &gt;=0.13,&lt;0.14 ([#9](https://github.com/liblaf/mkdocs-preset/issues/9)) ([5be3f93](https://github.com/liblaf/mkdocs-preset/commit/5be3f930e77b600467e409d23f9f6f119291d863))
+### ❤️ New Contributors
+
+- [@liblaf-bot[bot]](https://github.com/apps/liblaf-bot) made their first contribution
+- [@renovate[bot]](https://github.com/apps/renovate) made their first contribution in [#9](https://github.com/liblaf/mkdocs-preset/pull/9)
 
 ## [0.2.0](https://github.com/liblaf/mkdocs-preset/compare/v0.1.1..v0.2.0) - 2025-08-25
 
 ### 💥 BREAKING CHANGES
 
 - **deps:** replace mkdocs-section-index with mkdocs-awesome-nav - ([5a92dfa](https://github.com/liblaf/mkdocs-preset/commit/5a92dfa954cd8ec36489555b1e47c7eb1c368960))
-
-### ❤️ New Contributors
-
-- [@liblaf](https://github.com/liblaf) made their first contribution
 
 ## [0.1.1](https://github.com/liblaf/mkdocs-preset/compare/v0.1.0..v0.1.1) - 2025-08-25
 
