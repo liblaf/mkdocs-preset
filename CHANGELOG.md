@@ -1,5 +1,12 @@
 # Changelog
 
+## [0.2.2](https://github.com/liblaf/mkdocs-preset/compare/v0.2.1...v0.2.2) (2025-10-12)
+
+
+### 🐛 Bug Fixes
+
+* **deps:** update dependency ruff to &gt;=0.14,&lt;0.15 ([#11](https://github.com/liblaf/mkdocs-preset/issues/11)) ([b3a3838](https://github.com/liblaf/mkdocs-preset/commit/b3a3838d25b7873bb86876ef6e33d6f0d5fd01f3))
+
 ## [0.2.1](https://github.com/liblaf/mkdocs-preset/compare/v0.2.0..v0.2.1) - 2025-09-21
 
 ### ⬆️ Dependencies
