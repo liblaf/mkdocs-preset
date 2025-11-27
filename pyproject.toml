@@ -41,7 +41,7 @@ dependencies = [
   "mkdocs-include-markdown-plugin[cache]>=7,<8",
   "mkdocs-material[imaging]>=9,<10",
   "mkdocs>=1,<2",
-  "mkdocstrings[python]>=0.30,<0.31",
+  "mkdocstrings[python]>=1,<1.1",
   "pymdown-extensions>=10,<11",
   "ruff>=0.14,<0.15",
 ]
