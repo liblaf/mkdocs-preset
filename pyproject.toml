@@ -3,12 +3,12 @@
 
 [project]
 name = "liblaf-mkdocs-preset"
-description = "TODO"
+description = ""
 readme = "README.md"
 requires-python = ">=3.12"
 license = "MIT"
 authors = [
-  { name = "liblaf", email = "30631553+liblaf@users.noreply.github.com" },
+  { name = "liblaf", email = "30631553+liblaf@users.noreply.github.com" }
 ]
 keywords = []
 classifiers = [
@@ -22,7 +22,8 @@ classifiers = [
   "Programming Language :: Python :: 3",
   "Programming Language :: Python :: 3.12",
   "Programming Language :: Python :: 3.13",
-  "Typing :: Typed",
+  "Programming Language :: Python :: 3.14",
+  "Typing :: Typed"
 ]
 dependencies = [
   "docstring-inheritance>=2,<3",
@@ -33,6 +34,7 @@ dependencies = [
   "griffe-pydantic>=1,<2",
   "griffe-warnings-deprecated>=1,<2",
   "mdx-truly-sane-lists>=1,<2",
+  "mkdocs>=1,<2",
   "mkdocs-api-autonav>=0.4,<0.5",
   "mkdocs-autorefs>=1,<2",
   "mkdocs-awesome-nav>=3,<4",
@@ -40,10 +42,9 @@ dependencies = [
   "mkdocs-git-revision-date-localized-plugin>=1,<2",
   "mkdocs-include-markdown-plugin[cache]>=7,<8",
   "mkdocs-material[imaging]>=9,<10",
-  "mkdocs>=1,<2",
-  "mkdocstrings[python]>=0.30,<0.31",
+  "mkdocstrings[python]>=1,<2",
   "pymdown-extensions>=10,<11",
-  "ruff>=0.14,<0.15",
+  "ruff>=0.14,<0.15"
 ]
 dynamic = ["version"]
 
@@ -57,10 +58,7 @@ dynamic = ["version"]
 "Source Code" = "https://github.com/liblaf/mkdocs-preset"
 
 [dependency-groups]
-build = ["check-wheel-contents", "hatch", "twine"]
-dev = ["icecream"]
-docs = []
-test = ["hypothesis", "pytest", "pytest-codspeed", "pytest-cov", "pytest-xdist"]
+build = ["check-wheel-contents>=0.6,<0.7", "hatch>=1,<2", "twine>=6,<7"]
 
 [build-system]
 requires = ["hatch-vcs", "hatchling"]
@@ -86,12 +84,18 @@ packages = ["src/liblaf"]
 source = "vcs"
 
 [tool.pyright]
-exclude = ["**/.*", "**/__pycache__", "**/marimo", "**/node_modules"]
 extends = ".config/linters/pyrightconfig.json"
 
-[tool.pytest.ini_options]
-addopts = ["--showlocals", "--strict-config", "--strict-markers"]
-testpaths = ["benches", "tests"]
+[tool.pytest]
+addopts = [
+  "--doctest-modules",
+  "--hypothesis-show-statistics",
+  "--import-mode=importlib",
+  "--showlocals"
+]
+consider_namespace_packages = true
+strict = true
+testpaths = ["benches", "src", "tests"]
 
 [tool.ruff]
 extend = ".config/linters/.ruff.toml"
