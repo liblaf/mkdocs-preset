@@ -386,18 +386,6 @@ wheels = [
 ]
 
 [[package]]
-name = "docstring-inheritance"
-version = "2.3.0"
-source = { registry = "https://pypi.org/simple" }
-dependencies = [
-    { name = "typing-extensions" },
-]
-sdist = { url = "https://files.pythonhosted.org/packages/44/e0/517e63eeca8302ad1432e3f57da9a081e044ae9916c8e0d3bc1c15ac222f/docstring_inheritance-2.3.0.tar.gz", hash = "sha256:c08c0cd92070c5c551eb9b0a1fbb7f16c7a0bef8bc14980bb38dcf2d5510497d", size = 30743, upload-time = "2025-11-29T12:14:48.091Z" }
-wheels = [
-    { url = "https://files.pythonhosted.org/packages/5a/e6/0a9dfc16c3bb08e4db4ad18b48f1a8139666b0453280bce23c92d26d9208/docstring_inheritance-2.3.0-py3-none-any.whl", hash = "sha256:c89519e9deb0877d79a4540effc89a7d59335e2cbcd340ba107d50b76d1bf22e", size = 25322, upload-time = "2025-11-29T12:14:49.27Z" },
-]
-
-[[package]]
 name = "docutils"
 version = "0.22.3"
 source = { registry = "https://pypi.org/simple" }
@@ -489,19 +477,6 @@ wheels = [
 ]
 
 [[package]]
-name = "griffe-generics"
-version = "1.0.13"
-source = { registry = "https://pypi.org/simple" }
-dependencies = [
-    { name = "griffe" },
-    { name = "typing-extensions" },
-]
-sdist = { url = "https://files.pythonhosted.org/packages/d7/87/56a51c97f6a88b2dd4199a12c3a96c12627a24fa9994270d79047c79ecca/griffe_generics-1.0.13.tar.gz", hash = "sha256:00cfd1f1a940fb1566b382a24dbb40b288a694d313e41363cfc3e30093c358b3", size = 8064, upload-time = "2025-01-18T07:44:05.332Z" }
-wheels = [
-    { url = "https://files.pythonhosted.org/packages/d5/59/96c5bfdc24f5942690ac6161d425d4cc181d4c4624eb3f54b5d244672908/griffe_generics-1.0.13-py3-none-any.whl", hash = "sha256:e8139e485d256d0eba97ab310368c8800048918f0d5c7257817d769bba76ac94", size = 10557, upload-time = "2025-01-18T07:44:03.507Z" },
-]
-
-[[package]]
 name = "griffe-inherited-docstrings"
 version = "1.1.2"
 source = { registry = "https://pypi.org/simple" }
@@ -511,19 +486,6 @@ dependencies = [
 sdist = { url = "https://files.pythonhosted.org/packages/28/02/36d9929bb8ad929941b27117aba4d850b8a9f2c12f982e2b59ab4bc4d80b/griffe_inherited_docstrings-1.1.2.tar.gz", hash = "sha256:0a489ac4bb6093a7789d014b23083b4cbb1ab139f0b8dd878c8f3a4f8e892624", size = 27541, upload-time = "2025-09-05T15:17:13.081Z" }
 wheels = [
     { url = "https://files.pythonhosted.org/packages/ad/12/4c67b644dc5965000874908dfa89d05ba878d5ca22a9b4ebfbfadc41467b/griffe_inherited_docstrings-1.1.2-py3-none-any.whl", hash = "sha256:b1cf61fff6e12a769db75de5718ddbbb5361b2cc4155af1f1ad86c13f56c197b", size = 6709, upload-time = "2025-09-05T15:17:11.853Z" },
-]
-
-[[package]]
-name = "griffe-modernized-annotations"
-version = "1.0.8"
-source = { registry = "https://pypi.org/simple" }
-dependencies = [
-    { name = "griffe" },
-    { name = "typing-extensions" },
-]
-sdist = { url = "https://files.pythonhosted.org/packages/34/89/70efdbdbf5ca13cf6919368b542de78b8d0f5cca77f04f533d9f89cd9639/griffe_modernized_annotations-1.0.8.tar.gz", hash = "sha256:f4cd757260d2ebdb96d361c8ab882015955225bc3edc4713073b5a81ddad75b0", size = 8409, upload-time = "2024-08-16T10:02:48.106Z" }
-wheels = [
-    { url = "https://files.pythonhosted.org/packages/b6/54/f2defd39a3e258abda26e6c0ec0611611c5757e97d73defd64a4e917f5e9/griffe_modernized_annotations-1.0.8-py3-none-any.whl", hash = "sha256:d84b2d03d9c3127c2548f1eaa04dc3eba6cde34c0a2c4ae64f627908984e973d", size = 12158, upload-time = "2024-08-16T10:02:46.917Z" },
 ]
 
 [[package]]
@@ -738,11 +700,8 @@ wheels = [
 name = "liblaf-mkdocs-preset"
 source = { editable = "." }
 dependencies = [
-    { name = "docstring-inheritance" },
     { name = "griffe-fieldz" },
-    { name = "griffe-generics" },
     { name = "griffe-inherited-docstrings" },
-    { name = "griffe-modernized-annotations" },
     { name = "griffe-pydantic" },
     { name = "griffe-warnings-deprecated" },
     { name = "mdx-truly-sane-lists" },
@@ -768,11 +727,8 @@ build = [
 
 [package.metadata]
 requires-dist = [
-    { name = "docstring-inheritance", specifier = ">=2,<3" },
     { name = "griffe-fieldz", specifier = ">=0.3,<0.4" },
-    { name = "griffe-generics", specifier = ">=1,<2" },
     { name = "griffe-inherited-docstrings", specifier = ">=1,<2" },
-    { name = "griffe-modernized-annotations", specifier = ">=1,<2" },
     { name = "griffe-pydantic", specifier = ">=1,<2" },
     { name = "griffe-warnings-deprecated", specifier = ">=1,<2" },
     { name = "mdx-truly-sane-lists", specifier = ">=1,<2" },

@@ -26,11 +26,8 @@ classifiers = [
   "Typing :: Typed"
 ]
 dependencies = [
-  "docstring-inheritance>=2,<3",
   "griffe-fieldz>=0.3,<0.4",
-  "griffe-generics>=1,<2",
   "griffe-inherited-docstrings>=1,<2",
-  "griffe-modernized-annotations>=1,<2",
   "griffe-pydantic>=1,<2",
   "griffe-warnings-deprecated>=1,<2",
   "mdx-truly-sane-lists>=1,<2",
