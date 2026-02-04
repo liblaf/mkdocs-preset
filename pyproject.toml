@@ -41,7 +41,7 @@ dependencies = [
   "mkdocs-material[imaging]>=9,<10",
   "mkdocstrings[python]>=1,<2",
   "pymdown-extensions>=10,<11",
-  "ruff>=0.14,<0.15"
+  "ruff>=0.15,<0.16"
 ]
 dynamic = ["version"]
 
