@@ -7,7 +7,18 @@ All notable changes to this project will be documented in this file.
 The format is based on [Conventional Changelog](https://github.com/conventional-changelog/conventional-changelog-config-spec/blob/master/versions/2.2.0/README.md),
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
-## [0.3.1](https://github.com/liblaf/mkdocs-preset/releases/tag/v0.3.1) - 2025-12-13
+## [0.3.2](https://github.com/liblaf/mkdocs-preset/releases/tag/v0.3.2) - 2026-02-04
+
+### 🐛 Bug Fixes
+
+- **deps:** update dependency ruff to >=0.15,<0.16 (#36) - [70ece00](https://github.com/liblaf/mkdocs-preset/commit/70ece000edbaff69988c9a11ec9ae781418d1118) by [@renovate[bot]](https://github.com/apps/renovate) in [#36](https://github.com/liblaf/mkdocs-preset/pull/36)
+
+### ❤️ Contributors
+
+- [@renovate[bot]](https://github.com/apps/renovate) made their first contribution in [#36](https://github.com/liblaf/mkdocs-preset/pull/36)
+- [@liblaf[bot]](https://github.com/apps/liblaf) made their first contribution in [#34](https://github.com/liblaf/mkdocs-preset/pull/34)
+
+## [0.3.1](https://github.com/liblaf/mkdocs-preset/releases/tag/v0.3.1) - 2025-12-14
 
 ### 🐛 Bug Fixes
 
@@ -15,7 +26,8 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ### ❤️ Contributors
 
-- [@renovate[bot]](https://github.com/apps/renovate) made their first contribution in [#22](https://github.com/liblaf/mkdocs-preset/pull/22)
+- [@liblaf[bot]](https://github.com/apps/liblaf)
+- [@renovate[bot]](https://github.com/apps/renovate)
 - [@copier-update[bot]](https://github.com/apps/copier-update) made their first contribution in [#15](https://github.com/liblaf/mkdocs-preset/pull/15)
 
 ## [0.3.0](https://github.com/liblaf/mkdocs-preset/releases/tag/v0.3.0) - 2025-12-05
