@@ -26,7 +26,7 @@ classifiers = [
   "Typing :: Typed"
 ]
 dependencies = [
-  "griffe-fieldz>=0.4,<0.5",
+  "griffe-fieldz>=0.5,<0.6",
   "griffe-inherited-docstrings>=1,<2",
   "griffe-pydantic>=1,<2",
   "griffe-warnings-deprecated>=1,<2",
